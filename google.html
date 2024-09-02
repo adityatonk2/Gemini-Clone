@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts for icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="google.css">
+    <title>Google Gemini Clone</title>
+</head>
+<body>
+    <header class="header">
+
+        <!-- header-greetings  -->
+        <h1 class="title">Hello, there</h1>
+        <h4 class="subtitle">How can i help you today ?</h4>
+
+        <!-- header-suggestions  -->
+         <ul class="suggestions-list">
+            <li class="suggestion">
+                <h4 class="text">Plan me a Gamenight with my 5 friends under $100</h4>
+                <span class="icon material-symbols-rounded">draw</span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">What are the best way to improve my public communication skills.</h4>
+                <span class="icon material-symbols-rounded">
+                    lightbulb
+                    </span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">Can you help me find the latest news related to web.</h4>
+                <span class="icon material-symbols-rounded">
+                    rocket_launch
+                    </span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">write a javascript code to sort a linked list.</h4>
+                <span class=" icon material-symbols-rounded">
+                    developer_mode_tv
+                    </span>
+            </li>
+         </ul>
+    </header>
+
+    <div class="chat-list">
+        <!-- <div class="message outgoing">
+            <div class="message-content">
+                <img src="user.png" alt="user" class="avatar" />
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, perspiciatis.</p>
+            </div>
+         </div>
+        <div class="message incoming">
+            <div class="message-content">
+                <img src="gemini.jpeg" alt="gemini" class="avatar" />
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, perspiciatis.</p>
+            </div>
+            <span class="icon material-symbols-rounded">content_copy</span>
+        </div>
+        <div class="message incoming loading">
+            <div class="message-content">
+                <img src="gemini.jpeg" alt="gemini" class="avatar" />
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, perspiciatis.</p>
+                <div class="loading-indicator">
+                    <div class="loading-bar"></div>
+                    <div class="loading-bar"></div>
+                    <div class="loading-bar"></div>
+                </div>
+            </div>
+            <span class="icon material-symbols-rounded">content_copy</span>
+        </div> -->
+    </div>
+
+      <!-- Typing Area  -->
+    <div class="typing-area">
+        <form action="#" class="typing-form">
+            <div class="input-wrapper">
+                <input type="text" class="typing-input"placeholder="Enter your prompt here" required />
+                <button class="icon material-symbols-rounded"> send </button>
+            </div>
+            <div class="action-buttons">
+                <span id="toggle-theme-button" class="icon material-symbols-rounded">light_mode</span>
+                <span id="delete-chat-button" class="icon material-symbols-rounded">delete</span>
+            </div>
+        </form>
+       <p class="disclaimer-text">Gemini may display inaccurate info. including about people so double-check its responses.</p>
+    </div>
+
+    <script src="google.js"></script>
+</body>
+</html>
